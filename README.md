@@ -5,7 +5,7 @@
 
 [中文说明](README_zh.md)
 
-This repository contains OLCI scene-level product generation and temporal-statistics code for the 626-lake CLakeWQ study scope. All lakes use the default mask parameters in `01_scene_production/config/mask_parameters.json`. The RF model manifest is V1.0. The model manifest lists the paths and SHA-256 values for the 15 final trained RF bundles. This package contains no RF weights, so model inference becomes available after those bundles are supplied at the listed paths. Training data and source imagery are not included.
+This repository contains OLCI scene-level product generation and temporal-statistics code for the 626-lake CLakeWQ study scope. All lakes use the default mask parameters in `01_scene_production/config/mask_parameters.json`. The RF model manifest is V1.0. The model manifest lists the paths and SHA-256 values for the 15 final trained RF bundles.
 
 ## Workflows
 
