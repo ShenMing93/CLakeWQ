@@ -1,0 +1,4 @@
+numpy>=1.26
+pandas>=2.2
+pyogrio>=0.7
+scipy>=1.11

@@ -1,0 +1,60 @@
+{
+  "format": "olci-mask-viewer",
+  "version": 4,
+  "exported_at": "2026-10-20T09:03:25.549Z",
+  "scope": {
+    "lake": "P65B201_Sailimu",
+    "month": 8,
+    "years": "both"
+  },
+  "params": {
+    "water": {
+      "enabled": true,
+      "threshold": 0.2
+    },
+    "ndwi": {
+      "enabled": true,
+      "threshold": 0.2
+    },
+    "cloud1": {
+      "enabled": true,
+      "r443": 0.1,
+      "r560": 0.1,
+      "r665": 0.1
+    },
+    "cloud2": {
+      "enabled": true,
+      "r560": 0.2,
+      "r865": 0.2
+    },
+    "cloud3": {
+      "enabled": true,
+      "r1020": 0.12
+    },
+    "shadow": {
+      "enabled": true,
+      "r665": 0.0005
+    },
+    "bloom": {
+      "enabled": true,
+      "afai": 0.013546850005,
+      "turbid": 0.05
+    },
+    "erosion": {
+      "enabled": true,
+      "radius": 1
+    },
+    "source": {
+      "enabled": false
+    }
+  },
+  "view": {
+    "mode": "retained",
+    "stretch": {
+      "low": 2,
+      "high": 98,
+      "gamma": 1
+    }
+  },
+  "notes": "掩膜在原始像元网格计算；对比基线使用同阈值，移除 nonbloom 后再腐蚀。"
+}
