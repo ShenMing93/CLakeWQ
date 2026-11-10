@@ -5,7 +5,7 @@
 
 [English documentation](README.md)
 
-本仓库包含CLakeWQ研究范围内626个湖泊的OLCI逐景产品生产和时间统计代码。所有湖泊统一使用 `01_scene_production/config/mask_parameters.json` 中的默认掩膜参数。RF模型清单版本为V1.0。模型清单列出15个最终训练RF模型包的路径和SHA-256值。本版本不含RF权重；将模型包放到清单所列路径后即可运行模型推理。不含训练数据和源影像。
+本仓库包含CLakeWQ研究范围内626个湖泊的OLCI逐景产品生产和时间统计代码。所有湖泊统一使用 `01_scene_production/config/mask_parameters.json` 中的默认掩膜参数。
 
 ## 流程
 
